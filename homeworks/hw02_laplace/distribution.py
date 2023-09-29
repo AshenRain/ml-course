@@ -13,7 +13,7 @@ class LaplaceDistribution:
         # Your code here
         ####
         median = np.median(x, axis=0)
-        return np.mean(np.abs(x - median)
+        return np.mean(np.abs(x - median))
 
     def __init__(self, features):
         '''
